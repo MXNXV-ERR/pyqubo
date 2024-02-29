@@ -15,8 +15,8 @@ jobs:
   build_sdist:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v5
         name: Install Python
         with:
           python-version: ${{env.Python_Version}}
@@ -33,8 +33,9 @@ jobs:
   codecov:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v5
+
         name: Install Python
         with:
           python-version: ${{env.Python_Version}}
@@ -52,8 +53,8 @@ jobs:
   doctest:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v5
         name: Install Python
         with:
           python-version: ${{env.Python_Version}}
@@ -131,8 +132,8 @@ jobs:
       fail-fast: false 
     
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v5
         name: Install Python
         with:
           python-version: ${{env.Python_Version}}

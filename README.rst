@@ -10,8 +10,8 @@
 .. image:: https://pepy.tech/badge/pyqubo
     :target: https://pepy.tech/project/pyqubo
     
-.. image:: https://github.com/recruit-communications/pyqubo/actions/workflows/build_and_upolad.yaml/badge.svg
-    :target: https://github.com/recruit-communications/pyqubo/actions/workflows/build_and_upolad.yaml
+.. image:: https://github.com/MXNXV-ERR/pyqubo/actions/workflows/build_and_upload.yaml/badge.svg
+    :target: https://github.com/MXNXV-ERR/pyqubo/actions/workflows/build_and_upload.yaml
 
 
 .. index-start-marker1
@@ -205,3 +205,6 @@ Contribution
 We welcome contributions to this project. See `CONTRIBUTING <./CONTRIBUTING.rst>`_.
 
 We thank all contributors, especially @tail-island and @29rou.
+
+
+I am jus using the pyqubo code and adding support for Python 3.12 , with test and github actions for the same , hae changes the contacts to mine but source belongs to Recruit Co., Ltd.  and is available at [https://github.com/recruit-communications/pyqubo]

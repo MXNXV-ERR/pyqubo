@@ -10,8 +10,8 @@
 .. image:: https://pepy.tech/badge/pyqubo
     :target: https://pepy.tech/project/pyqubo
     
-.. image:: https://github.com/recruit-communications/pyqubo/actions/workflows/build_and_upolad.yaml/badge.svg
-    :target: https://github.com/recruit-communications/pyqubo/actions/workflows/build_and_upolad.yaml
+.. image:: https://github.com/MXNXV-ERR/pyqubo/actions/workflows/build_and_upload.yaml/badge.svg
+    :target: https://github.com/MXNXV-ERR/pyqubo/actions/workflows/build_and_upload.yaml
 
 
 .. index-start-marker1
